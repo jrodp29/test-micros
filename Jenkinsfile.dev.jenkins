@@ -1,0 +1,5 @@
+#!groovy
+@Library('devopspaas-pipeline-kube-library@docker')
+@Library('devopspaas-pipeline-sgt-java-library@updatedRepo11') _
+
+devopspaasDevelopment(language: 'java', paas: 'kubernetes', executeKubePluginAgents: true,ci: true, cd: true, configurationFile: 'jenkinsfile.yaml')
