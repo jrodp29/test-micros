@@ -5,11 +5,11 @@ pipelineConfiguration:
     projectDescription:
     urlRegistryDev: de.icr.io
     docker: true
-    applicationName: mgateway-fra
+    applicationName: mgateway-nld
     timeoutOperations: 1800
     registryCredentialsId: ibm-registry-apikey
     helm:
-      name: mgateway-fra
+      name: mgateway-nld
       deployment:
         replicas: 1
         revisionHistoryLimit: 3
@@ -31,7 +31,7 @@ pipelineConfiguration:
           cpu: 15m
           memory: 90Mi
       hpa:
-        maxReplicas: 3
+        maxReplicas: 1
         minReplicas: 1
         cpu: 99
       readinessProbe:
@@ -56,8 +56,8 @@ pipelineConfiguration:
         repositoryId: maven-releases
         appGroupId: com.santander.cross
         appPackaging: jar
-        appArtifactId: mgateway-fra
-        appVersion: X.X.X-SNAPSHOT
+        appArtifactId: mgateway-nld
+        appVersion: 0.0.1-SNAPSHOT
       ingress:
         enabled: true
         annotations:
