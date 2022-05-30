@@ -1,0 +1,12 @@
+[
+  {
+    "name" : "com.santander.cross.scfhq.gateway.config.extension.AccessToken",
+    "allDeclaredConstructors" : true,
+    "allPublicConstructors" : true,
+    "allDeclaredMethods" : true,
+    "allPublicMethods" : true,
+    "allDeclaredFields" : true,
+    "allPublicFields" : true
+  }
+
+]
