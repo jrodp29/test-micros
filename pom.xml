@@ -5,7 +5,7 @@
 
   <groupId>com.santander.cross.nld</groupId>
   <artifactId>scfhq-cross-mgateway-nld</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <properties>
     <compiler-plugin.version>3.8.1</compiler-plugin.version>
